@@ -1,8 +1,7 @@
 body{
         background-image: url(Kartinki_phon/metro2033phon.jpeg);
         position: absolute;
-        width: 1200px;
-        height: 993px;
+        width: 100%;
         z-index: 2; 
     }
 .title{      
@@ -296,7 +295,7 @@ footer{
     left: 0;
     background-image: url(Kartinki_phon/Kirpich.png);
     height: 30px;
-    width: 1200px;
+    width: 100%;
     padding-top: 40px;
     padding-left: 10px;
     color: #8f3636;
@@ -315,7 +314,7 @@ footer{
 }
 .nav {
   display: block;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto 30px;
 }
 .one ul {
@@ -335,10 +334,10 @@ footer{
 /* стили для содержания побочных страниц*/
 .sec{
   background-image: url(Kartinki_phon/Bumaga3.png);
-  width: 1200px;
+  width: 100%;
 }
 .da{
-  width: 1200px;
+  width: 100%;
 }
 .da img{
   display: block;
@@ -368,3 +367,19 @@ footer{
   height: 15%;
   width: 15%;
 }
+
+.wrapur{
+  height: 100%;
+}
+@media only screen
+  and (max-device-width:420px)
+  {
+    .vidos{
+      width:700px;
+      height:500px;
+    }
+    .imgo{
+      width: 700px;
+      height: 500px;
+    }
+  }
