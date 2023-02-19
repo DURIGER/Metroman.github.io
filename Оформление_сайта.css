@@ -313,9 +313,10 @@ footer{
   transition: .5s linear;
 }
 .nav {
-  display: block;
+  display: inline;
   width: 100%;
   margin: 0 auto 30px;
+  line-height: 2.5;
 }
 .one ul {
   padding: 1em 0;
@@ -358,6 +359,7 @@ footer{
 }
 .dap{
   font-size: larger;
+  text-align: justify;
 }
 .imgo{
   height: 25%;
@@ -381,5 +383,14 @@ footer{
     .imgo{
       width: 700px;
       height: 500px;
+    }
+    .a {
+      font-size: 15px;
+    }
+    .nav {
+      line-height: 3.4;
+    }
+    body{
+      background-image: url(Kartinki_phon/Phon_Mobile3.png);
     }
   }
